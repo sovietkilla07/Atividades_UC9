@@ -4,7 +4,17 @@
     box-sizing: border-box;
 }
 
+.container-grid{
+    width: 1200px;
+    margin: 0 auto;
 
+}
+
+.cabecalho{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 
 header{
     background-color: #1E1C21;
