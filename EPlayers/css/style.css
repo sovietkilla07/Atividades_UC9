@@ -42,3 +42,9 @@ a{
     font-family: 'Roboto', sans-serif;
 
 }
+
+.banner {
+
+    height: 602px;
+    background-image: url(../img/ImagemBanner.png);
+}
