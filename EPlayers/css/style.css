@@ -104,3 +104,13 @@ a{
     background-color: black;
     height: 120px;
 }
+
+.posicionamento-jogos {
+
+    height: 100%;
+}
+
+.container {
+
+    max-width: 1200px;
+}
