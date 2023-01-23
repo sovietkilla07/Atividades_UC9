@@ -98,3 +98,9 @@ a{
     align-items: center;
     height: 100%;
 }
+
+.jogos {
+
+    background-color: black;
+    height: 120px;
+}
