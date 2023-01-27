@@ -13,6 +13,11 @@
 
 }
 
+#barras{
+
+    display: none;
+}
+
 .cabecalho{
     display: flex;
     justify-content: space-between;
@@ -33,7 +38,7 @@ a{
 .icone-menu{
 
     height: 40px;
-    
+
 }
 
 .menu{
@@ -134,5 +139,15 @@ a{
     .container-grid{
 
         width: 800px;
+    }
+
+    #barras{
+
+        display: inline-block;
+    }
+
+    .menu{
+
+        display: none;
     }
 }
