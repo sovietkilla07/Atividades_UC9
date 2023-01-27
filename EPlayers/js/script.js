@@ -7,6 +7,14 @@ function cadastrarNewsletter(){
 function mostrarMenu($event){
 
     let menu = document.getElementById("menu")
-    menu.style.display = "flex"
+    if(getComputedStyle(menu).display == "none"){
+
+        menu.style.display = "flex"
+    }
+    else{
+
+        menu.style.display = "none"
+    }
     event.preventDefault()
+    
 }
