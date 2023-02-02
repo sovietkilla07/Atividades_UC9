@@ -151,6 +151,11 @@ a{
         position: relative;
     }
 
+    .menu-ativo{
+
+        display: flex;
+    }
+
     .menu{
 
         display: none;

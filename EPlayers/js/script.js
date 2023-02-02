@@ -1,3 +1,12 @@
+$(document).ready(function(){
+
+    $("#barras").click(function(){
+        
+        $("#menu").addClass("menu-ativo")
+    })
+})
+
+
 function cadastrarNewsletter(){
 
     let email = document.getElementById("campo-email").value
