@@ -1,8 +1,15 @@
 $(document).ready(function(){
 
     $("#barras").click(function(){
+
+        if($("menu").hasClass("menu-ativo")){
+            $("#menu").removeClass("menu-ativo")
+
+        }else{
+            $("#menu").addClass("menu-ativo")
+        }
         
-        $("#menu").addClass("menu-ativo")
+        
     })
 })
 
