@@ -58,10 +58,15 @@ a{
 .banner {
 
     height: 607px;
-    background-image: url(../img/ImagemBanner.png);
+    /* background-image: url(../img/ImagemBanner.png); */
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+}
+
+.banner-f1{
+
+    background-image: url(../img/ImagemBanner.png);
 }
 
 .conteudo-banner h1{
