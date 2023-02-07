@@ -69,6 +69,16 @@ a{
     background-image: url(../img/ImagemBanner.png);
 }
 
+.banner-cs {
+
+    background-image: url(../img/banner_cs.png);
+}
+
+.banner-lol {
+
+    background-image: url(../img/banner_lol.png);
+}
+
 .conteudo-banner h1{
 
     color:white;

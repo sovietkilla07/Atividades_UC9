@@ -1,5 +1,16 @@
 $(document).ready(function(){
 
+    let listaSlides = ["banner-f1", "banner-cs", "banner-lol"]
+
+    function mudarSlide (){
+
+
+    }
+
+
+
+
+
     $("#barras").click(function(){
 
         if($("#menu").hasClass("menu-ativo")){
