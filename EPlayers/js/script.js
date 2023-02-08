@@ -10,8 +10,17 @@ $(document).ready(function(){
 
         //remover o slide anterior
 
+        if(slideAtual > 0){
+
+            $("#carrossel").removeClass(listaSlides[slideAtual - 1])
+
+        }else{
+
+            $("#carrossel").removeClass(listaSlides[2])
+        }
+
         
-        $("#carrossel").removeClass(listaSlides[slideAtual - 1])
+        
 
 
         //exibir slide atual
@@ -24,6 +33,11 @@ $(document).ready(function(){
         console.log(" O slide atual é", slideAtual)
 
         slideAtual ++
+
+        if(slideAtual > 2){
+
+            slideAtual = 0
+        }
 
 
     }
