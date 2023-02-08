@@ -16,7 +16,7 @@ $(document).ready(function(){
 
         }else{
 
-            $("#carrossel").removeClass(listaSlides[2])
+            $("#carrossel").removeClass(listaSlides[listaSlides.length - 1])
         }
 
         
@@ -34,7 +34,7 @@ $(document).ready(function(){
 
         slideAtual ++
 
-        if(slideAtual > 2){
+        if(slideAtual > listaSlides.length - 1){
 
             slideAtual = 0
         }
